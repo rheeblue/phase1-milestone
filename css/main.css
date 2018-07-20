@@ -1,0 +1,234 @@
+/*****Base Styles*****/
+
+body{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Kavivanar', cursive;
+    min-width:1200px;
+}
+
+#about, #skills, #work, #contact {
+    height: 600px;
+    overflow:auto;
+}
+
+/*****Grid*****/
+
+.full-width {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    margin: 0 auto;
+    width: 600px;   
+}
+
+.third-width {
+    float: left;
+    margin: 0 auto;
+    width: 400px;
+}
+/*****Header*****/
+
+header{
+    background: url('../img/crushing-it.png');
+    background-size: cover;
+    height:800px;
+}
+
+header h1 {
+    color:white;
+    font-family: 'Dancing Script', cursive;
+    font-size:65px;
+    padding:50px 0;
+    
+}
+
+nav {
+    float:right;
+    padding: 75px 40px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+    padding: 14px 16px;
+    text-transform: uppercase;
+    text-decoration: none;  
+}
+
+header h2 {
+    clear: both; 
+    color: rgb(224, 220, 220);
+    font-family:'Kavivanar', cursive;
+    font-size: 65px;
+    float: right;  
+    line-height: 70px;
+    margin:0;
+    padding: 92px;
+   text-shadow: 1px 1px 2px black, 0 0 25px orchid, 0 0 5px purple;
+   width:1000px;
+}
+
+/*****About*****/
+
+#about {
+    background-color: black;
+}
+
+#about .full-width {
+    padding: 16px 0;
+}
+
+#about h2 {
+    color:  rgb(224, 220, 220);
+    font-family: 'kavivanar', cursive;
+    font-size: 50px;
+    text-align:center;
+    text-shadow: 1px 1px 2px black, 0 0 25px orchid, 0 0 5px purple;
+}
+
+#about p {
+    color:white;
+    font-size: 20px;
+    line-height:35px;
+    margin: 30px;
+    padding:30px;
+    text-align: justify;
+    word-spacing:2.3px;
+}
+
+/*****Skills*****/
+
+#skills {
+    background-color: black;
+}
+
+#skills .full-width {
+    padding: 20px 0;
+}
+
+#skills h2 {
+    color:rgb(224, 220, 220);
+    font-family: 'kavivanar', cursive;
+    font-size:50px;
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 25px orchid, 0 0 5px purple;       
+}
+#skills h3 {
+    color: white;
+    font-family: 'kavivanar', cursive;
+    font-size:20px;
+    margin:30px;
+    text-align: center;
+    
+}
+
+#skills img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   object-fit: cover;
+   padding-bottom:30px;
+   width:265px;
+    
+}
+
+/*****Work*****/
+
+#work{
+    background-color: black;
+    text-align:center;
+}
+
+#work .full-width{
+    padding: 20px 0;
+
+}
+#work img { 
+    margin: auto;
+    width: 350px; 
+    padding: auto;
+}
+
+
+#work h2 {
+    color: rgb(224, 220, 220);
+    font-family: 'kavivanar', cursive;
+    font-size:50px;
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 25px orchid, 0 0 5px purple;       
+}
+
+
+#work h3 {
+    color:white;
+    font-family: 'Kavivanar', cursive;
+    font-size:25px;
+    line-height: 25px;
+    padding: 0 35px;
+    
+}
+
+/*****Contact*****/
+
+#CONTACT {
+    background-color: black;
+}
+#contact .full-width {
+    padding: 50px 0;
+}
+#contact-img {
+    border: 30px solid rgb(153, 24, 185);
+}
+#contact h2, #email-header, #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+   
+#contact h2 {
+    
+    color: rgb(224, 220, 220);
+    font-family: 'kavivanar', cursive;
+    font-size: 35px;
+    text-shadow: 1px 1px 2px black, 0 0 25px orchid, 0 0 5px purple;       
+}
+#email-header{
+    font-size: 32px;
+    font-weight:400;
+    margin: -30px 0 5px 0;
+    float:right;
+    
+}
+#socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    margin: 40px 0 0 0;
+    
+}
+#contact a {
+    color: rgb(153, 24, 185);
+    font-weight: bold;
+    font-size: 28px;
+    text-decoration: none;   
+}
+#contact h3 {
+    color:white;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+    display: inline-block;
+}
+#contact ul img {
+    font-size: 32px;
+    padding-left: 48px;
+    width:100px;
+}
+
+
